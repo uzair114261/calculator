@@ -18,6 +18,10 @@ def multiply(a, b):
     """
     return a * b
 
+def power(a, b):
+    """Calculate a raised to the power of b."""
+    return a ** b
+
 if __name__ == "__main__":
     print("Simple Calculator")
     print("=================")
@@ -28,3 +32,4 @@ if __name__ == "__main__":
     print(f"{num1} + {num2} = {add(num1, num2)}")
     print(f"{num1} - {num2} = {subtract(num1, num2)}")
     print(f"{num1} × {num2} = {multiply(num1, num2)}")
+    print(f"{num1} ^ {num2} = {power(num1, num2)}")
