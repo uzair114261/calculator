@@ -7,7 +7,15 @@ def subtract(a, b):
     return a - b
 
 def multiply(a, b):
-    """Multiply two numbers and return the result."""
+    """Multiply two numbers.
+
+    Args:
+        a (float): The first number.
+        b (float): The second number.
+
+    Returns:
+        float: The product of the two numbers.
+    """
     return a * b
 
 if __name__ == "__main__":
